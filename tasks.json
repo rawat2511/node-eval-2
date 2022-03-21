@@ -1,0 +1,73 @@
+[
+    { 
+        "title": "Buy Grocery", 
+        "status": false, 
+        "subTask": [
+            "Buy Bread",
+            "Buy Milk"
+        ]
+    },
+    { 
+        "title": "Buy Fruits", 
+        "status": false, 
+        "subTask": [
+            "Buy Apple",
+            "Buy Mangos",
+            "Buy Bananas"
+        ] 
+    },
+    { 
+        "title": "Buy Vegatables", 
+        "status": true, 
+        "subTask": [
+            "Buy Carrot",
+            "Buy Tomato",
+            "Buy Potatos"
+        ]
+    },
+    { 
+        "title": "Buy stationary", 
+        "status": true, 
+        "subTask":  [
+            "Buy Nodebook",
+            "Buy Pen",
+            "Buy Erasore",
+            "Buy Books"
+        ]
+    },
+    { 
+        "title": "Buy Dress", 
+        "status": false, 
+        "subTask": [
+            "Buy Tie",
+            "Buy Shirt",
+            "Buy Pents",
+            "Buy Belt"
+        ]
+    },
+    { 
+        "title": "Buy Electronics", 
+        "status": false, 
+        "subTask": [
+            "Buy Laptop",
+            "Buy Tablet",
+            "Buy Mobile"
+        ]
+    },
+    { 
+        "title": "Buy Books", 
+        "status": true, 
+        "subTask": [
+            "Buy Cursive Book",
+            "Buy Poems Book",
+            "Buy Science Book"
+        ]
+    },
+    { 
+        "title": "", 
+        "status": false, 
+        "subTask": [
+
+        ]
+    }
+]
