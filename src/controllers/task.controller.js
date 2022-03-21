@@ -24,6 +24,12 @@ router.post('/', async (req, res) => {
     res.status(200).json(createdTask);
 })
 
+router.get('/:id', async (req, res) => {
+    const id = req.params.id;
+    const item = await Task.findById(id);
+    res.status(200).json(item);
+})
+
 router.patch('/:id', async (req, res) => {
     const updateTask = await Task.findByIdAndUpdate(
         req.params.id,
